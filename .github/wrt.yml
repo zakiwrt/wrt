@@ -8,10 +8,10 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: quiz.vidio.com
+    servername: img.email3.vidio.com
     network: ws
     ws-opts:
       path: /vmessws
       headers:
-        Host: quiz.vidio.com
+        Host: img.email3.vidio.com
     udp: true
