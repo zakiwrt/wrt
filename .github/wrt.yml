@@ -32,7 +32,7 @@ proxies:
         Host: my-indo.xensin.my.id
     udp: true
   - name: Argon
-    server: quiz.int.vidio.com
+    server: quiz.vidio.com
     port: 80
     type: vmess
     uuid: 49bd14fc-5676-4602-9531-a46671a8c4aa
