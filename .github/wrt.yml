@@ -6,7 +6,7 @@ proxies:
     uuid: b0cf9f90-664a-4111-b51b-71438460d6b5
     alterId: 0
     cipher: auto
-    tls: fale
+    tls: false
     skip-cert-verify: true
     servername: quiz.vidio.com
     network: ws
