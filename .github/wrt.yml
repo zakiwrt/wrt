@@ -8,12 +8,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: quiz.vidio.com
+    servername: quiz.int.vidio.com
     network: ws
     ws-opts:
       path: /vmessws
       headers:
-        Host: quiz.vidio.com
+        Host: quiz.int.vidio.com
     udp: true
   - name: SG
     server: sgku.xensin.my.id
@@ -24,10 +24,10 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: quiz.vidio.com
+    servername: quiz.int.vidio.com
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: quiz.vidio.com
+        Host: quiz.int.vidio.com
     udp: true
