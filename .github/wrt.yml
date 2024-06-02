@@ -1,12 +1,12 @@
 proxies:
   - name: SG
     server: quiz.vidio.com
-    port: 80
+    port: 443
     type: vmess
     uuid: f03e9b29-bda4-4e36-81eb-a559d84c7857
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: sgku.xensin.my.id
     network: ws
