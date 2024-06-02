@@ -15,3 +15,19 @@ proxies:
       headers:
         Host: sgku.xensin.my.id
     udp: true
+  - name: IDN
+    server: quiz.vidio.com
+    port: 80
+    type: vmess
+    uuid: b0cf9f90-664a-4111-b51b-71438460d6b5
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: my-indo.xensin.my.id
+    network: ws
+    ws-opts:
+      path: /vmessws
+      headers:
+        Host: my-indo.xensin.my.id
+    udp: true
