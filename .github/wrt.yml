@@ -1,9 +1,9 @@
 proxies:
-  - name: zaki1
-    server: sgku.xensin.my.id
+  - name: zaki2
+    server: my-indo.xensin.my.id
     port: 80
     type: vmess
-    uuid: f03e9b29-bda4-4e36-81eb-a559d84c7857
+    uuid: b0cf9f90-664a-4111-b51b-71438460d6b5
     alterId: 0
     cipher: auto
     tls: false
@@ -11,7 +11,7 @@ proxies:
     servername: quiz.vidio.com
     network: ws
     ws-opts:
-      path: /vmess
+      path: /vmessws
       headers:
         Host: quiz.vidio.com
-    udp: true
+    udp: true: true
