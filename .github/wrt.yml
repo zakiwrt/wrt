@@ -1,5 +1,5 @@
 proxies:
-  - name: INDO
+  - name: zaki2
     server: my-indo.xensin.my.id
     port: 80
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: quiz.vidio.com
     udp: true
-  - name: SG
+  - name: zaki1
     server: sgku.xensin.my.id
     port: 80
     type: vmess
