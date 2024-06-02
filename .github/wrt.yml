@@ -3,15 +3,15 @@ proxies:
     server: quiz.vidio.com
     port: 80
     type: vmess
-    uuid: 9c0c1c49-b996-4b54-9168-d1551f08b15d
+    uuid: f03e9b29-bda4-4e36-81eb-a559d84c7857
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: qwords.bhm.my.id
+    servername: sgku.xensin.my.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: qwords.bhm.my.id
+        Host: sgku.xensin.my.id
     udp: true
