@@ -15,19 +15,3 @@ proxies:
       headers:
         Host: quiz.vidio.com
     udp: true
-  - name: zaki2
-    server: my-indo.xensin.my.id
-    port: 80
-    type: vmess
-    uuid: b0cf9f90-664a-4111-b51b-71438460d6b5
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: quiz.vidio.com
-    network: ws
-    ws-opts:
-      path: /vmessws
-      headers:
-        Host: quiz.vidio.com
-    udp: true
