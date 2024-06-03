@@ -60,3 +60,16 @@ proxies:
       path: /trojan
       headers:
         Host: warna2.store-premium.online
+  - name: (JWIqGPna) [Trojan - ws] TLS ✅
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: da475b92-2ffc-4a4f-8746-c72308e89cc9
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    sni: biznet-2.server-vpn.cloud
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: biznet-2.server-vpn.cloud
