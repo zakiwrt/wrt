@@ -14,3 +14,16 @@ proxies:
       path: /vmess
       headers:
         Host: quiz.staging.vidio.com.do2.server-vpn.cloud
+  - name: (ZAKI3) [Trojan - ws] TLS ✅GG
+    server: 172.67.5.14
+    port: 443
+    type: trojan
+    password: f08a273d-688f-4264-a0c9-f7bfb4aa6a41
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    sni: argon-2.store-premium.online
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: argon-2.store-premium.online
