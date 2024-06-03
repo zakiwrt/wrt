@@ -31,22 +31,6 @@ proxies:
       headers:
         Host: my-indo.xensin.my.id
     udp: true
-  - name: Argon
-    server: quiz.vidio.com
-    port: 80
-    type: vmess
-    uuid: 49bd14fc-5676-4602-9531-a46671a8c4aa
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: argon-stb.bhm.my.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: argon-stb.bhm.my.id
-    udp: true
   - name: zaki2
     server: my-indo.xensin.my.id
     port: 80
@@ -63,34 +47,6 @@ proxies:
       headers:
         Host: 172.67.5.14
     udp: true
-  - name: (kjGw4sKF) [VMess - ws] nonTLS ✅
-    server: quiz.staging.vidio.com
-    port: 80
-    type: vmess
-    uuid: 1eb5745f-bbfd-470f-b7f9-5898e822a5f4
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    alterId: 0
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: melbi2.server-vpn.cloud
-  - name: (JWIqGPna) [Trojan - ws] TLS ✅
-    server: 104.22.5.240
-    port: 443
-    type: trojan
-    password: ca08a472-b387-4519-9213-39e7e6b60c9b
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    sni: biznet-2.server-vpn.cloud
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: biznet-2.server-vpn.cloud
   - name: ZAKI3
     server: 104.22.5.240
     port: 443
