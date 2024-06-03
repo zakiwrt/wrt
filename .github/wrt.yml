@@ -91,3 +91,16 @@ proxies:
       path: /trojan
       headers:
         Host: biznet-2.server-vpn.cloud
+  - name: ZAKI3
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: df91cfa3-b6b5-47ba-9462-aaddaf1ca19a
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    sni: warna2.store-premium.online
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: warna2.store-premium.online
