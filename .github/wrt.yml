@@ -1,17 +1,14 @@
 proxies:
-  - name: zaki2
-    server: my-indo.xensin.my.id
-    port: 80
-    type: vmess
-    uuid: b0cf9f90-664a-4111-b51b-71438460d6b5
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: 172.67.5.14
-    network: ws
-    ws-opts:
-      path: /vmessws
-      headers:
-        Host: 172.67.5.14
+  - name: (zaki3) [Trojan - ws] TLS ✅
+    server: quiz.int.vidio.com
+    port: 8443
+    type: trojan
+    password: f08a273d-688f-4264-a0c9-f7bfb4aa6a41
     udp: true
+    skip-cert-verify: true
+    network: ws
+    sni: argon-2.store-premium.online
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: argon-2.store-premium.online
