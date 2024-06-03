@@ -1,7 +1,7 @@
 proxies:
-  - name: (zaki3) [Trojan - ws] TLS ✅
-    server: quiz.int.vidio.com
-    port: 8443
+  - name: (ZAKI3) [Trojan - ws] TLS ✅GG
+    server: 172.67.5.14
+    port: 443
     type: trojan
     password: f08a273d-688f-4264-a0c9-f7bfb4aa6a41
     udp: true
