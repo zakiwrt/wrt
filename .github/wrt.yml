@@ -78,3 +78,16 @@ proxies:
       path: /vmess
       headers:
         Host: melbi2.server-vpn.cloud
+  - name: (JWIqGPna) [Trojan - ws] TLS ✅
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: ca08a472-b387-4519-9213-39e7e6b60c9b
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    sni: biznet-2.server-vpn.cloud
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: biznet-2.server-vpn.cloud
